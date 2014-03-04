@@ -63,11 +63,11 @@ public class Product {
     
     
     
-    public static void main(String[] args) {
-        Product p = new Product("RC CAR", "A101", 50.00, new DiscountByPercent(.1));
-        Product p1 = new Product("RC CAR", "A101", 40.00, new DiscountByQuantity(5));
-        
-        System.out.println(p1.toString());
-        
-    }
+//    public static void main(String[] args) {
+//        Product p = new Product("RC CAR", "A101", 50.00, new DiscountByPercent(.1));
+//        Product p1 = new Product("RC CAR", "A101", 40.00, new DiscountByQuantity(5));
+//        
+//        System.out.println(p1.toString());
+//        
+//    }
 }
